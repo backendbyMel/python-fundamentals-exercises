@@ -21,6 +21,7 @@ def run_audit():
     l3 = l1
 
     #print the memory addrss to verify that it is the same with l1
+    print(l3)
     print(l3==l1)
     print(l3 is l1)
     print(id(l3))
